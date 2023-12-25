@@ -9,26 +9,34 @@
 </head>
 
 <body>
+    <div class="navbar">
+        <div class="nav-links">
+            <a href="about.html" class="nav-link">About us</a>
+            <a href="contact.html" class="nav-link">Contact us</a>
+            <a href="morejobs.html" class="nav-link">More jobs</a>
+        </div>
+    </div>
 
     <h1>Application for Software Engineer</h1>
 
     <form action="">
         <label for="name">Full Name</label><br>
-        <input type="text" name="name" id="app_name" placeholder="Enter your full legal name"><br><br>
+        <input type="text" name="name" id="app_name" placeholder="Enter your full legal name" required><br><br>
 
         <label for="email">Email Address</label><br>
-        <input type="email" name="email" id="app_email"><br><br>
+        <input type="email" name="email" id="app_email" required><br><br>
 
         <label for="address">Address</label><br>
         <input type="text" required><br><br>
 
         <label for="telephone">Telephone Number</label><br>
-        <input type="tel" name="telephone" id="app_telephone"><br><br>
+        <input type="tel" name="telephone" id="app_telephone" required><br><br>
 
         <label for="startdate">When can you start?</label><br>
-        <input type="date" name="telephone" id="app_telephone"><br><br>
+        <input type="date" name="startdate" id="startdate" required><br><br>
 
         <label for="cv">Upload your CV</label><br>
+        <input type="file" id="cv" name="cv" accept="image/*,.pdf" /><br><br>
 
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>

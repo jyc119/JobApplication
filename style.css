@@ -7,3 +7,25 @@ button {
     background-color: blue;
     color: white;
 }
+
+label[for="email"]{
+    color: red;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: turquoise;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-link {
+    display: block;
+    text-align: center;
+    border-top: 1px solid var(--grey-500);
+}
